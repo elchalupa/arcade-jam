@@ -1,0 +1,23 @@
+# arcade-jam Generator Dependencies
+# Install on RunPod with: pip install -r requirements.txt
+
+# PyTorch with CUDA (install separately with correct CUDA version)
+# pip install torch torchaudio --index-url https://download.pytorch.org/whl/cu121
+
+# Meta's AudioCraft (includes MusicGen)
+# Install from git for latest version:
+# pip install git+https://github.com/facebookresearch/audiocraft.git
+audiocraft
+
+# Demucs for stem separation
+demucs
+
+# Audio processing
+scipy
+soundfile
+
+# Configuration
+pyyaml
+
+# Note: Also requires system packages:
+# apt-get install -y ffmpeg libsndfile1

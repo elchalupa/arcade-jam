@@ -1,0 +1,68 @@
+# arcade-jam Prompt Library
+#
+# Each prompt should include:
+#   - name: Display name (shown to viewers during stream)
+#   - prompt: The text sent to MusicGen
+#
+# Tips for good prompts:
+#   - Include BPM (helps you lock in when playing)
+#   - Specify key instruments you want
+#   - Mention genre/era/vibe
+#   - Keep bass references minimal (Demucs removes it anyway)
+#   - Be specific about drum style
+
+prompts:
+  # --- SOUL / R&B ---
+  - name: "Neo Soul Groove"
+    prompt: "Neo-soul instrumental, 85 bpm, fender rhodes electric piano, J Dilla swing drums, vinyl crackle, warm pad, smooth groove"
+
+  - name: "90s R&B Slow Jam"
+    prompt: "90s R&B instrumental, 70 bpm, soft synth pads, finger snaps, smooth drums, romantic, Babyface style production"
+
+  # --- HIP HOP ---
+  - name: "Boom Bap Classic"
+    prompt: "Boom bap hip hop instrumental, 90 bpm, dusty vinyl samples, chopped soul, punchy drums, DJ Premier style"
+
+  - name: "Dirty South Trap"
+    prompt: "Dirty south hip hop, 140 bpm, heavy 808 kick, hi-hat rolls, orchestral hits, dark brass stabs, trunk rattling"
+
+  - name: "Lo-Fi Chill"
+    prompt: "Lo-fi hip hop instrumental, 75 bpm, vinyl crackle, mellow piano, tape wobble, relaxed drums, study beats"
+
+  # --- FUNK ---
+  - name: "Funk Strut"
+    prompt: "Funk instrumental, 105 bpm, clavinet, wah guitar, tight drums, James Brown style, horn stabs, groovy"
+
+  - name: "P-Funk Space"
+    prompt: "P-funk instrumental, 95 bpm, synth bass wobble, spacey synths, tight funk drums, Parliament style, cosmic"
+
+  # --- JAZZ ---
+  - name: "Jazz Club"
+    prompt: "Jazz trio instrumental, 120 bpm, upright bass walking, ride cymbal swing, piano comping, smoky club atmosphere"
+
+  - name: "Fusion Fire"
+    prompt: "Jazz fusion instrumental, 110 bpm, electric piano, complex drums, Weather Report style, energetic, syncopated"
+
+  # --- ELECTRONIC ---
+  - name: "Liquid DnB"
+    prompt: "Liquid drum and bass, 174 bpm, atmospheric pads, rolling drums, deep reese bass, amen break variations, smooth"
+
+  - name: "Deep House Groove"
+    prompt: "Deep house instrumental, 122 bpm, warm pads, four on the floor kick, subtle percussion, late night club vibe"
+
+  - name: "Synthwave Retro"
+    prompt: "Synthwave instrumental, 118 bpm, analog synth arpeggios, gated reverb drums, neon 80s aesthetic, driving"
+
+  # --- ROCK / BLUES ---
+  - name: "Blues Shuffle"
+    prompt: "Blues shuffle instrumental, 95 bpm, Hammond organ, shuffle drums, guitar licks, Chicago blues style, gritty"
+
+  - name: "Indie Rock Drive"
+    prompt: "Indie rock instrumental, 130 bpm, jangly guitars, steady drums, alternative rock, Strokes style energy"
+
+  # --- WORLD / OTHER ---
+  - name: "Afrobeat Pulse"
+    prompt: "Afrobeat instrumental, 115 bpm, polyrhythmic drums, horn section, Fela Kuti style, hypnotic groove, percussion"
+
+  - name: "Bossa Nova Sunset"
+    prompt: "Bossa nova instrumental, 140 bpm, nylon guitar, soft brushes on drums, Brazilian jazz, relaxed, Antonio Carlos Jobim style"
