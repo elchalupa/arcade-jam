@@ -2,6 +2,8 @@
 
 AI-powered jam roulette for music streams — viewers trigger backing tracks, streamer plays along.
 
+> **Platform:** Windows 10/11 only for Streamer.bot integration. The RunPod generator runs in the cloud and is platform-agnostic.
+
 ## Concept
 
 Viewers redeem channel points to spin the "jam roulette." A random AI-generated backing track plays, and the streamer has to improvise over it live. Like karaoke, but for instrumentalists.
@@ -43,7 +45,7 @@ PRE-STREAM (RunPod)                      DURING STREAM (Local)
                                                    │
                                                    ▼
                                          ┌─────────────────────┐
-                                         │   Streamer jams 🎸  │
+                                         │   Streamer jams     │
                                          └─────────────────────┘
 ```
 
@@ -99,6 +101,8 @@ Or use the RunPod JupyterLab interface to download.
 
 See [streamerbot/setup.md](streamerbot/setup.md) for detailed instructions.
 
+**Note:** Streamer.bot requires Windows.
+
 ### 4. Stream!
 
 - Start your music stream
@@ -143,8 +147,9 @@ See [ROADMAP.md](ROADMAP.md) for planned features:
 
 ## Related Projects
 
-- [arcade-tts](https://github.com/elchalupa/arcade-tts) — Channel point TTS with voice cloning
 - [arcade-heartbeat](https://github.com/elchalupa/arcade-heartbeat) — Stream engagement copilot
+- [arcade-coach](https://github.com/elchalupa/arcade-coach) — Context-aware self-care reminders
+- [arcade-tts](https://github.com/elchalupa/arcade-tts) — Channel point TTS with voice cloning
 - [arcade-newsletter](https://github.com/elchalupa/arcade-newsletter) — Automated monthly newsletter
 
 ## License
